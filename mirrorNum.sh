@@ -5,7 +5,7 @@ do
 	mirrorCheck=$(( $x*$m ));
 	if [ $mirrorCheck<=100 ];
 	then
-		echo $mirrorCheck
+		echo ${mirrorCheck[@]}
 	fi
 done
 
